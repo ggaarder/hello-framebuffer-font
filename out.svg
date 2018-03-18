@@ -1,4 +1,6 @@
-<svg width="800" height="768" viewBox="0 0 800 768">
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="800" height="768" viewBox="0 0 800 768" xmlns="http://www.w3.org/2000/svg" version="1.1">
 <rect x="4" y="2" width="1" height="1" stroke="green" file="green"/>
 <rect x="4" y="3" width="1" height="1" stroke="green" file="green"/>
 <rect x="5" y="2" width="1" height="1" stroke="green" file="green"/>
