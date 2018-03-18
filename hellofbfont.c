@@ -114,7 +114,9 @@ int main() {
     return -1;
   }
   x = 0; y = 0;
-  fprintf(bmp, "<svg width=\"%d\" height=\"%d\" viewBox=\"0 0 %d %d\">\n",
+  fprintf(bmp, "<?xml version=\"1.0\" standalone=\"no\"?>\n"
+          "<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n"
+          "<svg width=\"%d\" height=\"%d\" viewBox=\"0 0 %d %d\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\">\n",
           vinfo.xres, vinfo.yres, vinfo.xres, vinfo.yres);
   putpixel_fn = putpixel_file;
   DRAW_FONT(font8x8_ascii);
